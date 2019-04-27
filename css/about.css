@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin-top: 10%;
+}
+/*NAVBAR*/
+
+#navbar {
+  z-index: 10000000;
+  background-color: #061A2C;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+  margin-bottom: 50px;
+}
+
+.sticky {
+    position:fixed;
+    top:0;
+}
+
+#navbar .nav-link {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  margin: 8px 25px 7px 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+.nav-link{
+    border-radius: 5%;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: #061A2C;
+}
+
+particles-js{
+	 
+  background-color: #777;
+  background-image: url('eee_cover.jpg');
+  background-size: 1350px 500px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    background-color: #ddd; 
+ }
+
+ .dropdown-item{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: #061A2C;
+ }
+
+.dropdown-item:hover{
+  color: #ddd !important;
+  background-color: #061A2C !important;
+ }
+
+/* ----------------------------------------------------------------- */
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  font-family: 'Montserrat', sans-serif;
+  color: #061A2C;
+  display: inline-block;
+  letter-spacing: 2px;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.abt-head{
+  margin-bottom: 0;
+}
+
+.text{
+  font-size: 18px;
+}
+
+.about, .domains, .team{
+  margin-bottom: 40px;
+}
+
+
+.domain-item{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.domain-item .pic{
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  float:left;
+  margin: auto;
+}
+
+.pic img{
+  width: 120px;
+}
+
+.domain .pic-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.domains .info{
+  margin-left: 30px;
+}
+.member{
+  width: 200px;
+  height: 300px;
+  float:left;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  background-color: #eeeeee;
+
+}
+
+
+
+.caption{
+  display: inline-block;
+  width:120px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 130%;
+}
+
+
+/*-------------TEAM MEMBERS -----------------*/
+
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+  border-radius: 50px;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 25px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  z-index: 2;
+  border-radius: 25px;
+}
+
+.flip-card-front img{
+  border-radius: 25px;
+}
+
+.flip-card-back {
+  background-color: #061A2C;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+  padding-top: 30%;
+}
+
+
+/*FOOTER*/
+.footer a{
+  text-decoration: none;
+}
+
+.footer h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #061A2C;
+  font-weight: bold;
+  margin-left: 17%;
+}
+
+.footer p{
+  font-family: 'Montserrat', sans-serif;
+  color: #061A2C;
+  margin-bottom: 2px;
+  margin-left: 18%;
+}

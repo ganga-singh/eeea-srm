@@ -1,0 +1,54 @@
+body{
+	margin-top: 10%;
+}
+
+#navbar {
+  z-index: 10000000;
+  background-color: #061A2C;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+}
+
+#navbar .nav-link {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  margin: 8px 25px 7px 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+.nav-link{
+    border-radius: 5%;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: #061A2C;
+}
+
+
+.sticky {
+    position:fixed;
+    top:0;
+}
+
+.jumbotron{
+	background-color: #f2f4f7;
+}
+
+.jumbotron ul li {
+	font-size: 130%;
+}
+
+.jumbotron ul li a{
+	text-decoration: none;
+}
+
+.jumbotron ul li a:hover{
+	color: #061A2C;
+}

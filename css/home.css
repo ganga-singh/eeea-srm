@@ -1,0 +1,459 @@
+
+
+#navbar {
+  z-index: 10000000;
+  background-color: #061A2C;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+}
+
+#navbar-mobile{
+  z-index: 10000000;
+  background-color: #061A2C;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+}
+
+#navbar .nav-link {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  margin: 8px 25px 7px 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+.nav-link{
+    border-radius: 5%;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: #061A2C;
+}
+
+
+
+/*--------HOME-MOBILE----------------*/
+
+.home-mobile{
+  background-image: url("../images/eee_cover_mobile.jpg");
+  position: relative;
+  /*width: 100%;*/
+  height: 620px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+/*-------------SIDEBAR----------------*/
+
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    opacity: 1;
+}
+
+/* The navigation menu links */
+.sidebar a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: #061A2C;
+    transition: 0.3s;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    margin-right: 25px;
+}
+
+
+/*-----------------CAROUSEL---------------*/
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 30rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 30rem;
+}
+
+.carousel2-item {
+  height: 29rem;
+  background-color: white;
+}
+.carousel2-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/*.carousel3-item {
+  height: 11rem;
+  background-color: white;
+}
+.carousel3-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 11rem;
+}
+*/
+
+#particles-js{
+	 
+  background-color: #777;
+  background-image: url('../images/eee_cover.jpg');
+  background-size: 100% 500px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+}
+
+
+/* PARTICLES CSS
+------------------------- */
+/* ---- reset ---- */  canvas{ display: block; vertical-align: bottom; height: 500px !important; } 
+
+  
+    .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } 
+  #stats{
+    display: none;
+  }
+  .count-particles{ border-radius: 0 0 3px 3px; }
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    background-color: #ddd; 
+ }
+
+ .dropdown-item{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: #061A2C;
+ }
+
+.dropdown-item:hover{
+  color: #ddd !important;
+  background-color: #061A2C !important;
+ }
+
+ .sticky {
+    position:fixed;
+    top:0;
+}
+
+#show_logo{
+  display: none;
+}
+
+.nav_bottom{
+  margin-top: 6%;
+}
+
+.carousel-indicators li{
+  border-radius: 50%;
+   width: 8px;
+   height: 8px;
+}
+
+/* heads team */
+
+.heads{
+  box-shadow: 5px 5px 5px 5px #F4F4F4 ;
+  padding: 0 !important;
+  /*border: 0.5px solid black;*/
+}
+
+.heads_img {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #F4F4F4;
+  
+
+}
+
+
+
+.image {
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  opacity:0;
+  transition: .5s ease;
+}
+
+.heads_img:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.details{
+  margin-top: 5%;
+}
+
+.details > h3,h6{
+  font-family: 'Montserrat', sans-serif;
+  color: #061A2C;
+}
+
+
+
+/*FOOTER*/
+.footer a{
+  text-decoration: none;
+}
+
+.footer h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #061A2C;
+  font-weight: bold;
+  margin-left: 17%;
+}
+
+.footer p{
+  font-family: 'Montserrat', sans-serif;
+  color: #061A2C;
+  margin-bottom: 2px;
+  margin-left: 18%;
+}
+
+
+
+/*----------------RESPONSIVE ----------------------*/
+
+@media only screen and (max-width: 390px) {
+
+  .desktop{
+    display: none;
+  }
+
+  .home-mobile{
+    display: block;
+    height: 640px !important;
+  }
+
+}
+
+
+@media (max-width: 480px) and (min-width: 390px) {
+
+  .desktop{
+    display: none;
+  }
+
+  .home-mobile{
+    display: block;
+    height: 820px !important;
+  }
+
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width:540px) and (min-width: 480px) {
+
+  .desktop{
+    display: none;
+  }
+
+  .home-mobile{
+    display: block;
+    height: 920px !important;
+  }
+
+} 
+
+@media (max-width:600px) and (min-width: 540px) {
+
+  .desktop{
+    display: none;
+  }
+
+  .home-mobile{
+    display: block;
+    height: 1024px !important;
+  }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width:769px) and (min-width:600px) {
+    .desktop{
+    display: none;
+  }
+
+  .home-mobile{
+    display: block;
+    height: 1240px !important;
+  }
+
+    .details h3{
+    font-size: 140% !important;
+   }
+
+   .details h6{
+    font-size: 80% !important;
+   }
+
+
+} 
+
+@media (max-width:850px) and (min-width:769px) {
+
+.home-mobile{
+    display: none;
+   }
+
+.desktop{
+    display: block;
+   }
+  #en-em-ex h2{
+    font-size:160% !important; 
+   }
+     .details h3{
+    font-size: 140% !important;
+   }
+
+    .details h6{
+    font-size: 80% !important;
+   }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width:992px) and (min-width:850px) {
+  .home-mobile{
+    display: none;
+   }
+
+.desktop{
+    display: block;
+   }
+
+ #en-em-ex h2{
+    font-size:200% !important; 
+   }
+
+   .details h3{
+    font-size: 140% !important;
+   }
+
+    .details h6{
+    font-size: 80% !important;
+   }
+
+
+} 
+
+@media (max-width:1200px) and (min-width:993px){
+
+  .home-mobile{
+    display: none;
+   }
+
+.desktop{
+    display: block;
+   }
+
+   #en-em-ex h2{
+    font-size:240% !important; 
+   }
+
+
+}
+@media (max-width: 1300px) and (min-width: 1200px){
+  .home-mobile{
+    display: none;
+   }
+
+.desktop{
+    display: block;
+   }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) {
+  .home-mobile{
+    display: none;
+   }
+
+.desktop{
+    display: block;
+   }
+
+}
+
